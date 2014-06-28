@@ -15,6 +15,7 @@ Standards-Version: 3.9.4
 Package: anon-ws-base-files
 Architecture: all
 Depends: ${misc:Depends}
+Conflicts: anon-gw-base-files
 Description: Base Files for Anonymity Distribution Workstations
  Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
  other applications to identify, that they are running inside an Anonymity
