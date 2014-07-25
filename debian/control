@@ -20,3 +20,6 @@ Description: Base Files for Anonymity Distribution Workstations
  Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
  other applications to identify, that they are running inside an Anonymity
  Distribution Workstation.
+ .
+ Do not remove, unless you no longer wish to use an Anonymity Distribution
+ Workstation.
