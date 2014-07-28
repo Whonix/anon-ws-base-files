@@ -4,6 +4,9 @@ Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
 other applications to identify, that they are running inside an Anonymity
 Distribution Workstation.
 
+Do not remove, unless you no longer wish to use an Anonymity Distribution
+Workstation.
+
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
 # Generic Readme #
