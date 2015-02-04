@@ -1,0 +1,168 @@
+commit 276a8bf18e9b9030616c9e5842e1e5315b048791
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:28 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit da7430f78015a10df60b83212e775980872383cb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:34 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 9ae885e3dbc60b8040a493439906368d6fd71c96
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:31 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 1bafe5ad8c3e0568a088ae520ecb13692fb222ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:07 2014 +0000
+
+    updated generic makefile
+
+commit 4fc7fb795c130f4a805e7d063c2d322b78af8278
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:15 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit 9bc190836ac8e6422b4fcd4ba81a058d9681d0c6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:49 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 8df2f5f8717ad6d09dde71f96210f609e087ffd0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:01 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit a5a22f46b83fe0503248249309e6bd6559f35c78
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:50 2014 +0000
+
+    readme
+
+commit 7b7402b2ae8e8c7ee707c4651607750e8310a210
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:33 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit 0d952e4b7a730f8bfa00e68a7511e3c2482a1e5a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:21 2014 +0000
+
+    Updated debian/changelog.
+
+commit 49aaa3f473e2d44b5fc473221178370056ec0b45
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:24 2014 +0000
+
+    Fixed changelog date.
+
+commit db423e9426b91e19882d9472148c70491b7c9943
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:23 2014 +0000
+
+    bump version number
+
+commit ac0b617487f897c44a5133fa15f47cc6bf6fbb2f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:13 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 316478e2af0a623ac6073fa6d49847ea9c3e3c08
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 28 23:25:41 2014 +0000
+
+    readme
+
+commit ed551380ab2f68d5c078a1d42f6150a4c957a5b8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:24 2014 +0000
+
+    packaging
+
+commit 021392231f9c8b7686708227882e20c52f62dbf2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:08 2014 +0000
+
+    packaging
+
+commit d839041da6dc60a8dade17a92d26a6e5d7fc72f4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:34 2014 +0000
+
+    packaging
+
+commit 3dbc119521a567f734bfca9f2a80307163b02338
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:16:01 2014 +0000
+
+    packaging: removed build dependency on git, since the .git folder won't be included in the upstream tarball.
+
+commit a9a2073fc3c02c88220f5d51d250d5de812d42df
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 25 17:10:46 2014 +0000
+
+    fixed lintian warning
+
+commit 4734b06be97b80594d8bd33ffc27c9a54c49f29e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:10:58 2014 +0000
+
+    packaging
+
+commit d39cc1a502e1da348863b9aa61da63afa26d199f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:14 2014 +0000
+
+    packaging
+
+commit b11d3a8f9eb215e15aaa07d4dea18d1137b8ffe6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:09:41 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit e33e07bbeae6648e068c2a9b4ce6eb73f20467a4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 28 15:42:33 2014 +0000
+
+    Conflicts: anon-gw-base-files
+
+commit 17fd215ce5584e0c738a08a3090b1320d0576706
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:09 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 5f4c6863e4f1d55fc29de5a7eb4e3070b5d549d6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:23 2014 +0000
+
+    readme
+
+commit 692e26b28a866e0a8f2bdc3a082f59808aae245b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:29 2014 +0000
+
+    readme
+
+commit 246e13951747535ecea5ecd453b5249135cc754d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:00:48 2014 +0000
+
+    initial import from https://github.com/Whonix/Whonix
