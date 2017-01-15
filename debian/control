@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: https://github.com/Whonix/anon-ws-base-files
 Vcs-Browser: https://github.com/Whonix/anon-ws-base-files
 Vcs-Git: https://github.com/Whonix/anon-ws-base-files.git
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: anon-ws-base-files
 Architecture: all
