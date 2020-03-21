@@ -8,9 +8,9 @@
       <property name="monitor0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color1" type="array">
-            <value type="uint" value="5397"/>
-            <value type="uint" value="8738"/>
-            <value type="uint" value="13107"/>
+            <value type="uint" value="19789"/>
+            <value type="uint" value="37008"/>
+            <value type="uint" value="46517"/>
             <value type="uint" value="65535"/>
           </property>
           <property name="color-style" type="int" value="0"/>
