@@ -1,3 +1,51 @@
+commit e4c021540fbc0d6da76efa5310b52b488b418bad
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 14:51:26 2020 -0400
+
+    lintian
+
+commit 8e340f5764b6a2f25cb7bf15ed0b42e7d373c6dd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 14:48:35 2020 -0400
+
+    fix
+
+commit d5fb86875afa3f55c9cd13b819e87aa004f25258
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 14:46:02 2020 -0400
+
+    change color
+
+commit 8eff4633a7734b4a3844fc125e7e3eee9a38ada7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 13:46:27 2020 -0400
+
+    config-package-dev displace /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+
+commit 101fe6b85edea0007ce10d28caa343470a7dc294
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 13:34:27 2020 -0400
+
+    set non-image desktop background color for workstation
+    
+    https://forums.whonix.org/t/whonix-host-calamares-branding-suggestion/7772/25
+    
+    inspired by https://github.com/onions-knight/whonix-stuff/blob/master/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop-ws.xml
+    
+    Thanks to @onions-knight for the suggestion!
+
+commit f0261072563d48f786991ae86a2992a9c77c1bf7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 13:32:07 2020 -0400
+
+    import from whonix-xfce-desktop-config /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+
+commit e088993579adcd8191f8e5a7fe0e7fa4c7465f3b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:22:37 2019 +0000
+
+    bumped changelog version
+
 commit 40e51caa8e265fa6c680b499dc78cbc06c8a5dc7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:33 2019 +0000
