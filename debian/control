@@ -5,7 +5,7 @@ Source: anon-ws-base-files
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 12), genmkfile
+Build-Depends: debhelper (>= 12), config-package-dev, genmkfile
 Homepage: https://github.com/Whonix/anon-ws-base-files
 Vcs-Browser: https://github.com/Whonix/anon-ws-base-files
 Vcs-Git: https://github.com/Whonix/anon-ws-base-files.git
@@ -15,6 +15,8 @@ Package: anon-ws-base-files
 Architecture: all
 Depends: ${misc:Depends}
 Conflicts: anon-gw-base-files
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Base Files for Anonymity Distribution Workstations
  Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
  other applications to identify, that they are running inside an Anonymity
