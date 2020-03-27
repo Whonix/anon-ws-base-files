@@ -21,5 +21,7 @@ Description: Base Files for Anonymity Distribution Workstations
  other applications to identify, that they are running inside an Anonymity
  Distribution Workstation.
  .
+ Whonix-Workstation grub branding, motd and issue banner.
+ .
  Do not remove, unless you no longer wish to use an Anonymity Distribution
  Workstation.
