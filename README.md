@@ -6,7 +6,7 @@ Distribution Workstation.
 
 Whonix-Workstation grub branding, motd and issue banner.
 
-Sets XFCE desktop and display setting, wallpaper and desktop icons.
+Sets Xfce desktop and display setting, wallpaper and desktop icons.
 /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.anondist
 
 Do not remove, unless you no longer wish to use an Anonymity Distribution
