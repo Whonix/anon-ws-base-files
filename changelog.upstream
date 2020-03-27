@@ -1,3 +1,27 @@
+commit 0a9a921c14ba83fcdc75e0f3f4b35f14624882c9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:18:58 2020 -0400
+
+    readme
+
+commit 29678cecbee74349932a11ae4f1caa862c8f1789
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:17:26 2020 -0400
+
+    description
+
+commit 2d395561d9f7e93bd15c15de554aba965e8f64f6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:14:25 2020 -0400
+
+    add Whonix-Workstation grub, motd, issue branding
+
+commit 803b08874c1dc2e285718853ee0ae420b943365e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 21 14:56:00 2020 -0400
+
+    bumped changelog version
+
 commit e4c021540fbc0d6da76efa5310b52b488b418bad
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Mar 21 14:51:26 2020 -0400
