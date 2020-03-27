@@ -1,3 +1,21 @@
+commit f2c5c523c9d88764bc1b0af3bf2af5e7b1a23110
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:41:21 2020 -0400
+
+    readme
+
+commit c7c46a6ff5bd2c097921954bc9e75f5bf84dd944
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:33:18 2020 -0400
+
+    spelling
+
+commit 2164c2fde97459ab028846e36e57c99fab052539
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:29:38 2020 -0400
+
+    bumped changelog version
+
 commit 0a9a921c14ba83fcdc75e0f3f4b35f14624882c9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 27 07:18:58 2020 -0400
