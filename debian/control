@@ -16,6 +16,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}, anon-gw-base-files
+Replaces: whonix-ws-start-menu-additions
 Description: Base Files for Anonymity Distribution Workstations
  Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
  other applications to identify, that they are running inside an Anonymity
@@ -25,6 +26,16 @@ Description: Base Files for Anonymity Distribution Workstations
  .
  Sets Xfce desktop and display setting, wallpaper and desktop icons.
  /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.anondist
+ .
+ Extra Start Menu Entries for Whonix-Workstation
+ Contains start menu entries for the following links:
+  - contribute
+  - donate
+  - forum
+  - mailinglist
+  - documentation
+  - featureblog
+  - importantblog
  .
  Do not remove, unless you no longer wish to use an Anonymity Distribution
  Workstation.

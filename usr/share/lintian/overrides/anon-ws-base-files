@@ -3,3 +3,6 @@
 
 ## The whole point of the package.
 anon-ws-base-files: package-contains-file-in-etc-skel etc/skel/*
+
+# This package really only ships a start menu and desktop shortcuts.
+anon-ws-base-files: desktop-command-not-in-package *
