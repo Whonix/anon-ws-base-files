@@ -1,3 +1,39 @@
+commit dacb63d2b1696c341a6571457238248094a582c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:33:16 2020 +0000
+
+    readme
+
+commit 73410b20ba19874a5d33e6605f3ac76e4b58cd7f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:03:09 2020 +0000
+
+    renamed:    etc/update-motd.d/30_whonix-workstation.motd -> etc/update-motd.d/30_whonix-workstation
+
+commit afcf813a7e829f6abe51581c26c8055d7f44748d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:01:55 2020 +0000
+
+    convert to script
+
+commit 076ed75343bd6301d7ea7830870879ff207dd482
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 09:49:55 2020 +0000
+
+    fix, renamed:    usr/lib/motd.d/30_whonix-workstation.motd -> etc/update-motd.d/30_whonix-workstation.motd
+
+commit a1fdadd1a556b7abc815fff6e46eaa31e4253c41
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 15:49:36 2020 -0400
+
+    import from whonix-ws-start-menu-additions
+
+commit de0be92c3c8b863c4c50c97f00d0df7f8c7ff46d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 07:31:45 2020 -0400
+
+    bumped changelog version
+
 commit f325d882514078313a32816f9296d2e014ffb7a6
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 07:22:14 2020 -0400
