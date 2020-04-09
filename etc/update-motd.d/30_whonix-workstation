@@ -23,8 +23,16 @@ carries no guarantee from The Tor Project about quality, suitability or
 anything else.
 
 Whonix is a research project.
+'
 
-default user account: user
+if command -v qubesdb-read >/dev/null 2>&1 ; then
+   ## Skip Qubes default password until Qubes sudo gets implemented.
+   ## https://github.com/QubesOS/qubes-issues/issues/2695
+   true
+else
+   echo 'default user account: user
 default password: changeme
+'
+fi
 
-Type: "whonix" <enter> for help.'
+echo 'Type: "whonix" <enter> for help.'
