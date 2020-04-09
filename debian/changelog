@@ -1,3 +1,9 @@
+anon-ws-base-files (3:3.0-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 09 Apr 2020 10:16:20 +0000
+
 anon-ws-base-files (3:2.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
