@@ -1,3 +1,27 @@
+commit c5027a06325aeb41c21f3b68c6050892f238c559
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 10 03:57:38 2021 -0500
+
+    readme
+
+commit 5ada7c4f8882eca2817a8f011e63d0b461f34a13
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Feb 9 08:25:41 2021 -0500
+
+    add usr/share/applications/whonix-news-telegram.desktop
+
+commit a9b6bae5f4656797728f92b7b8c8f53c0ae29bfb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Feb 9 07:00:24 2021 -0500
+
+    remove whonix-mailinglist.desktop
+
+commit d42211cf27fee3ba6e7e6b7e23cc520e1d25f2a4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 16 08:21:58 2020 -0400
+
+    bumped changelog version
+
 commit 5c29873bcaf409edd8ac44231ce2a06261702f59
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 15 14:05:27 2020 -0400
