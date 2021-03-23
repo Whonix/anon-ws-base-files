@@ -15,7 +15,8 @@ Package: anon-ws-base-files
 Architecture: all
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}, anon-gw-base-files
+Conflicts: anon-gw-base-files,
+ ${diverted-files}
 Replaces: whonix-ws-start-menu-additions
 Description: Base Files for Anonymity Distribution Workstations
  Contains a marker file /usr/share/anon-ws-base-files/workstation that allows
