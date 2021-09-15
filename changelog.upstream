@@ -1,3 +1,15 @@
+commit 05e6e06250df24e72cb9aa14f5ab294f10dc17c1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 15 03:40:51 2021 -0400
+
+    fix desktop background
+
+commit c306bafac01d794eef98e107458e558c89aa7630
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 14 16:48:11 2021 -0400
+
+    bumped changelog version
+
 commit 706a7eff48adab1306cd127e85062286c77392ca
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Sep 14 16:41:43 2021 -0400
