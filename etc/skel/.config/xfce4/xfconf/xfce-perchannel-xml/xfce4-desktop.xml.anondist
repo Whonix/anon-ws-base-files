@@ -15,7 +15,7 @@
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
         <property name="workspace0" type="empty">
-          <property name="color-style" type="int" value="2"/>
+          <property name="color-style" type="int" value="0"/>
           <property name="color1" type="array">
             <value type="uint" value="19789"/>
             <value type="uint" value="37008"/>
@@ -30,16 +30,16 @@
           </property>
           <property name="image-style" type="int" value="0"/>
           <property name="rgba2" type="array">
-            <value type="uint" value="19789"/>
-            <value type="uint" value="37008"/>
-            <value type="uint" value="46517"/>
-            <value type="uint" value="65535"/>
+            <value type="double" value="0.647059"/>
+            <value type="double" value="0.113725"/>
+            <value type="double" value="0.176471"/>
+            <value type="double" value="1.000000"/>
           </property>
           <property name="rgba1" type="array">
-            <value type="uint" value="19789"/>
-            <value type="uint" value="37008"/>
-            <value type="uint" value="46517"/>
-            <value type="uint" value="65535"/>
+            <value type="double" value="0.250000"/>
+            <value type="double" value="0.595196"/>
+            <value type="double" value="0.750000"/>
+            <value type="double" value="1.000000"/>
           </property>
         </property>
         <property name="workspace1" type="empty">
