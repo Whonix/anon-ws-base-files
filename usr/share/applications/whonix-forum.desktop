@@ -8,6 +8,6 @@ Name=WhonixForum
 GenericName=WhonixForum
 Comment=User Help Forum
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/forum.ico
+Icon=/usr/share/icons/icon-pack-dist/forum.ico
 X-KDE-StartupNotify=false
 Keywords=Whonix;forum;help;

@@ -8,6 +8,6 @@ Name=Whonix Blog
 GenericName=Whonix Important Blog
 Comment=Important Blog in Tor Browser
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/importantblog.png
+Icon=/usr/share/icons/icon-pack-dist/importantblog.png
 X-KDE-StartupNotify=false
 Keywords=Whonix;blog;

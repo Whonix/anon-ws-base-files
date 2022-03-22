@@ -8,6 +8,6 @@ Name=Whonix Feature Blog
 GenericName=Whonix Feature Blog
 Comment=Feature Blog in Tor Browser
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/featureblog.ico
+Icon=/usr/share/icons/icon-pack-dist/featureblog.ico
 X-KDE-StartupNotify=false
 Keywords=Whonix;blog;

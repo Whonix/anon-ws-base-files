@@ -8,6 +8,6 @@ Name=Whonix Telegram News
 GenericName=Whonix Telegram News
 Comment=Whonix Telegram Announcements in Tor Browser
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/importantblog.png
+Icon=/usr/share/icons/icon-pack-dist/importantblog.png
 X-KDE-StartupNotify=false
 Keywords=Whonix;Telegram;News

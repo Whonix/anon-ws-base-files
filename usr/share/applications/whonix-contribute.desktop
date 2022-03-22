@@ -8,6 +8,6 @@ Name=Contribute
 GenericName=Whonix Contribute Page
 Comment=Contribute to Whonix
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/contribute.png
+Icon=/usr/share/icons/icon-pack-dist/contribute.png
 X-KDE-StartupNotify=false
 Keywords=Whonix;contribute;

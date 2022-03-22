@@ -8,6 +8,6 @@ Name=Donate Page
 GenericName=Whonix Donate Page
 Comment=Donate to Whonix
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/donate.png
+Icon=/usr/share/icons/icon-pack-dist/donate.png
 X-KDE-StartupNotify=false
 Keywords=Whonix;donate;contribute;

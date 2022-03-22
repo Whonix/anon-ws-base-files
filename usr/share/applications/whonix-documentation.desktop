@@ -8,6 +8,6 @@ Name=Documentation
 GenericName=Whonix Documentation Online
 Comment=Whonix Documentation Online
 Categories=Network;
-Icon=/usr/share/icons/anon-icon-pack/readme.ico
+Icon=/usr/share/icons/icon-pack-dist/readme.ico
 X-KDE-StartupNotify=false
 Keywords=Whonix;documentation;
