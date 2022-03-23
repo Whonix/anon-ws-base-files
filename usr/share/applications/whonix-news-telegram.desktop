@@ -3,7 +3,7 @@
 
 [Desktop Entry]
 Type=Application
-Exec=x-www-browser https://t.me/s/Whonix_All_News
+Exec=x-www-browser https://t.me/s/Whonix
 Name=Whonix Telegram News
 GenericName=Whonix Telegram News
 Comment=Whonix Telegram Announcements in Tor Browser
