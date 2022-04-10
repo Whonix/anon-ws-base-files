@@ -21,6 +21,7 @@ Contains start menu entries for the following links:
 
 Do not remove, unless you no longer wish to use an Anonymity Distribution
 Workstation.
+
 ## How to install `anon-ws-base-files` using apt-get ##
 
 1\. Download the APT Signing Key.
@@ -29,7 +30,7 @@ Workstation.
 wget https://www.whonix.org/derivative.asc
 ```
 
-Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key) for better security.
+Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Signing_Key) for better security.
 
 2\. Add the APT Signing Key..
 
@@ -63,7 +64,9 @@ Can be build using standard Debian package build tools such as:
 dpkg-buildpackage -b
 ```
 
-See instructions. (Replace `generic-package` with the actual name of this package `anon-ws-base-files`.)
+See instructions.
+
+NOTE: Replace `generic-package` with the actual name of this package `anon-ws-base-files`.
 
 * **A)** [easy](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package/easy), _OR_
 * **B)** [including verifying software signatures](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package)
