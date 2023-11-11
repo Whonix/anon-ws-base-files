@@ -1,3 +1,17 @@
+commit b799c544e16ea1be1a9cc26a6406163c1ee0ebf7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 13:41:26 2023 -0500
+
+    change license to AGPL-3+
+    
+    https://forums.whonix.org/t/license-change-to-agplv3/17455
+
+commit 0ad6c04d0b61c49cc0dd1872af2af4613868e05e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 9 06:16:44 2023 -0400
+
+    bumped changelog version
+
 commit 5143c90377e63399841fde82b3d3828613ad9f9c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 9 06:15:11 2023 -0400
