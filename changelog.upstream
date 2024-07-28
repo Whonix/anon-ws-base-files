@@ -1,3 +1,15 @@
+commit c152a55b7f7531ed329d027c4ca6a9b9b27e81d2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 28 19:18:13 2024 -0400
+
+    passwordless
+
+commit e60973bb1f36359eafdf155b93b08f9c593101d8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 20:29:05 2023 +0000
+
+    bumped changelog version
+
 commit b799c544e16ea1be1a9cc26a6406163c1ee0ebf7
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:26 2023 -0500
