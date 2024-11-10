@@ -7,3 +7,5 @@ anon-ws-base-files: package-contains-file-in-etc-skel [etc/skel/*]
 ## This package really only ships a start menu and desktop shortcuts.
 anon-ws-base-files: desktop-command-not-in-package x-www-browser [usr/share/applications/whonix-*.desktop]
 
+anon-ws-base-files: package-contains-documentation-outside-usr-share-doc [boot/grub/themes/whonix-workstation/theme-16x9.txt]
+anon-ws-base-files: package-contains-documentation-outside-usr-share-doc [boot/grub/themes/whonix-workstation/theme-4x3.txt]
