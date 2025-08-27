@@ -1,3 +1,36 @@
+commit defba8615f22c4a8cd379f079762630eb0348bae
+Merge: 58e8a7f bd2d24e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 27 13:14:42 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit bd2d24e447e60eaa37d05868c5950feae2c09106
+Merge: bedc90a 58e8a7f
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 26 19:23:59 2025 -0500
+
+    Merge branch 'master' into arraybolt3/trixie
+
+commit 58e8a7f9da46e22567b6eeed9f644911fe988e2a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 26 09:29:42 2025 +0000
+
+    bumped changelog version
+
+commit bedc90a7c089ab383bb58ba101ce2a4657d99dca
+Merge: 249c8ec 830e777
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Thu Aug 21 20:31:40 2025 -0500
+
+    Merge branch 'master' into arraybolt3/trixie
+
+commit 249c8ec3df341dea5cff392c7d346335491fb1ac
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Thu Aug 21 19:00:11 2025 -0500
+
+    Add Wayland compatibility
+
 commit 830e7774d665cb768bc27749a9b9856c0da49b8c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Aug 20 06:57:32 2025 -0400
@@ -9,6 +42,12 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Aug 20 06:25:39 2025 -0400
 
     readme
+
+commit 0870dda1e968a4cdf2b88bac1ef7c93c250994f6
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 5 22:58:22 2025 -0500
+
+    Port to Trixie.
 
 commit daa96b674efec456a110251761b124d7443a6f25
 Author: Patrick Schleizer <adrelanos@whonix.org>
