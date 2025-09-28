@@ -1,3 +1,28 @@
+commit d0db37491e970bdb6755f8c30a869c6b4588956d
+Merge: b82b607 4382f84
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Sep 28 17:03:01 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit 4382f8460320560ebbfae2fe030e8e1ad52e78f6
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sun Sep 28 15:08:25 2025 -0500
+
+    Turn off thumbnails in PCManFM-Qt, fix PCManFM-Qt config in sysmaint sessions
+
+commit ab2dc2e71a65785fa1bc0d82a226d63ff83515b7
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sun Sep 28 12:03:40 2025 -0500
+
+    Add Swaylock configuration for Whonix-Workstation
+
+commit b82b60726dd807d6cdd5a098d62b0d59a0105302
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Sep 19 16:26:38 2025 +0000
+
+    bumped changelog version
+
 commit 1de77f52d098d8ddfe239e555cad29200841f1f8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Sep 18 10:08:54 2025 -0400
