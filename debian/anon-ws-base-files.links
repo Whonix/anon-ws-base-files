@@ -1,2 +1,3 @@
 /etc/profile.d/20_whonix-workstation.sh /etc/zprofile.d/20_whonix-workstation.zsh
 /etc/profile.d/20_whonix-workstation.sh /etc/X11/Xsession.d/20_whonix-workstation
+/usr/share/anon-ws-base-files/pcmanfm-qt/lxqt /usr/share/anon-ws-base-files/pcmanfm-qt/default
