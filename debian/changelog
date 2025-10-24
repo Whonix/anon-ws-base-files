@@ -1,3 +1,9 @@
+anon-ws-base-files (3:6.6-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 24 Oct 2025 04:34:07 +0000
+
 anon-ws-base-files (3:6.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
