@@ -2,3 +2,5 @@
 ## See the file COPYING for copying conditions.
 
 /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.anondist
+/etc/xdg/waybar/config.jsonc.anondist
+/etc/xdg/waybar/style.css.anondist
