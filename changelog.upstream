@@ -1,3 +1,22 @@
+commit 5c19ca6194bdeb18753c31d9cca66b400c4e6b25
+Merge: 30ceb35 4b17737
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Oct 30 01:44:07 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit 4b177375800f2a91f252203e1ac2913011f8914f
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Thu Oct 30 00:16:22 2025 -0500
+
+    Use lock-screen from helper-scripts for screen locking, add lock screen background, remove now-redundant Waybar battery widget
+
+commit 30ceb35408d9c73f2508f9d132adb0e73455cf75
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Oct 24 08:16:14 2025 +0000
+
+    bumped changelog version
+
 commit 43a00f8370c8b8e61137e4271107e253656ff332
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Oct 24 04:15:02 2025 -0400
