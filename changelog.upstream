@@ -1,3 +1,22 @@
+commit d2ca048574e6820152cf5b4a2f997b6ff3d065f6
+Merge: 516af6f f77a793
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Nov 10 02:55:11 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit f77a793856140e1dec7c1abc139e1732041ee84e
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sun Nov 9 19:22:35 2025 -0600
+
+    Remove network icon from desktop
+
+commit 516af6f3a604ae48eddf08cf1bf60f8fa1082be1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Oct 30 05:50:41 2025 +0000
+
+    bumped changelog version
+
 commit 5c19ca6194bdeb18753c31d9cca66b400c4e6b25
 Merge: 30ceb35 4b17737
 Author: Patrick Schleizer <adrelanos@whonix.org>
