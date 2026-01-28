@@ -1,3 +1,15 @@
+commit b91b94209dff5d1da92bdc9cf70cd04a9cc4910e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jan 28 04:40:46 2026 -0500
+
+    import /etc/wlr-resize-watcher.d/40_workstation.conf from anon-apps-config
+
+commit cda65b4ef92e25762ae53a26ee1fb87e6c0dedae
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 26 19:06:14 2025 +0000
+
+    bumped changelog version
+
 commit c24f8f1f33a3877c154d13741ca1074e1f931403
 Merge: 806f735 964f5af
 Author: Patrick Schleizer <adrelanos@whonix.org>
