@@ -1,3 +1,105 @@
+commit c307185f19a40b4a844cf9124bee9c3afed4c94a
+Merge: c422954 c279320
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 8 10:20:57 2026 -0400
+
+    Merge remote-tracking branch 'refs/remotes/ArrayBolt3/arraybolt3/trixie'
+
+commit c27932018442af9c1e773494c84302cc5ada5b05
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Sun Sep 6 00:23:12 2026 -0400
+
+    Polish
+
+commit 1a664a9f52ff0e4826b6577b860960f1510a66ec
+Merge: c422954 6431805
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Sun Sep 6 00:20:01 2026 -0400
+
+    Merge branch 'ai' into arraybolt3/trixie
+
+commit 6431805d71f970f49aafd484dc15cc8707acd00f
+Author: claude (dev163 38f9745c-aed1-4fb4-b6ae-9899f20f8de2) <noreply@anthropic.com>
+Date:   Sat Aug 8 06:11:27 2026 -0400
+
+    CI: enrol in the pre-push static gate
+
+    This repo had no GitHub Actions workflow at all, so nothing verified its PRs on
+    the server side -- the only gate was ci-repro run locally.
+
+    The workflow file is the canonical consumer template, copied verbatim from
+    developer-meta-files/consumer-templates/.github/workflows/. It is managed: once
+    present, dm-packaging-helper-script's pkg_update_consumer_workflows keeps it in
+    sync, so it must not be hand-edited here.
+
+    Enrolment is deliberately a SEPARATE act from propagation: that function uses
+    pkg_update_if_exists, which only updates a workflow that already exists, and
+    pkg_install_dependabot_yml skips any repo with no .github/workflows/ directory.
+    Neither creates the first one. Hence this commit.
+
+    Scope: the repos this session actually changed and that ship shell code -- not
+    every repo lacking CI. Enrolling a repo consumes shared org-wide Actions
+    concurrency (20 jobs, the real limit; public repos are not minute-billed), so it
+    is worth spending where there is signal.
+
+    Verified BEFORE enrolling: 'ci-repro.sh --worktree' passes for this repo, so the
+    gate arrives green rather than turning someone's PR red on arrival.
+
+    NOTE, so it is not a surprise: creating .github/workflows/ makes this repo
+    eligible for the canonical .github/dependabot.yml on the next propagation pass,
+    which pkg_install_dependabot_yml installs into any repo that uses Actions.
+
+commit 674633a1e964b9e89d11cfbd8e971f29bc38a6df
+Author: claude (dev141 763ccfe0-7bd8-4e8c-afd0-c39aceb48d72) <noreply@anthropic.com>
+Date:   Sat Aug 1 08:01:34 2026 -0400
+
+    grub.d: point at the Kicksecure snippet instead of repeating it
+
+    The same thirty lines of rationale sat in three packages and had already begun to
+    drift -- the two Whonix copies were reworded against the Kicksecure original.
+    Keep one authority and reference it; only the theme directory name is specific
+    to this package.
+
+commit f060b8ab9bfc9ecfb05d6068ebb4dbe88189ceb1
+Author: claude (dev141 763ccfe0-7bd8-4e8c-afd0-c39aceb48d72) <noreply@anthropic.com>
+Date:   Sat Aug 1 06:34:13 2026 -0400
+
+    grub: pin the theme variant and select it with cp at grub-mkconfig time
+
+    Same defect and same resolution as kicksecure-base-files.
+
+    The snippet chose the theme and resolution with 'if [ -d /sys/firmware/efi ]'.
+    grub-mkconfig sources it inside the BUILD chroot, where help-steps/chroot-raw
+    mounts a fresh sysfs, so that test reads the BUILD HOST's firmware rather than
+    the target's:
+    - two build hosts produce two different images from identical source, which a
+      reproducibility comparison reports as a mismatch with no defect behind it;
+    - a BIOS-booted build host stamps the 4:3 theme onto every image, whatever
+      display it will run on.
+    Firmware type does not indicate panel aspect ratio in the first place.
+
+    Now unconditional 16:9, and the variant is copied rather than symlinked:
+    - 'cp' at grub-mkconfig time, not a dpkg symlink: at install time /boot may not
+      be mounted, and a /boot that is itself a symlink makes a packaged link fail.
+      grub-mkconfig runs on a system where /boot IS mounted.
+    - '--remove-destination' so a background.png that is a SYMLINK is replaced rather
+      than written THROUGH, which would corrupt its target.
+
+    GRUB_GFXMODE=1280x720,auto. The ',auto' fallback is documented: GRUB manual
+    "15.1.12 gfxmode" -- a sequence of modes separated by commas or semicolons, each
+    tried in turn, where a mode may be 'auto'. grub-mkconfig passes the value through
+    verbatim, so those semantics apply.
+
+    Regression test: dist-ai grub_theme_pinning_test.sh, parameterised over
+    kicksecure-base-files, anon-ws-base-files and anon-gw-base-files. Verified against
+    the pre-change snippet: 4 assertions fail.
+
+commit c422954f3838e927839fac0b81a8478c3a7db75a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 20 22:31:58 2026 +0000
+
+    bumped changelog version
+
 commit b6c6abc24d2d20f3632c730da504da253bb271d3
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed May 20 16:57:32 2026 -0400
