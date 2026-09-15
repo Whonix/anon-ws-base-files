@@ -1,9 +1,52 @@
+commit d9814a71c06c59e1263a26b2946a8e87331ac46d
+Merge: c4a730b f1461fe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 14 02:41:14 2026 -0400
+
+    Merge remote-tracking branch 'refs/remotes/ArrayBolt3/arraybolt3/trixie'
+
+commit f1461fe3792ba92066925847604c7e83d87684c6
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Sun Sep 13 16:59:42 2026 -0400
+
+    Make the GRUB theme config follow the same format as Kicksecure
+
+commit a7fba61f00fdff4c5d3ca99bca869413c51692ab
+Merge: c4a730b c1be41c
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Sun Sep 13 16:54:29 2026 -0400
+
+    Merge branch 'ai' into arraybolt3/trixie
+
+commit c1be41ce6d129ffe51888d9365f7ed47df5b0b2e
+Merge: abb53d1 c4a730b
+Author: claude <noreply@anthropic.com>
+Date:   Tue Sep 8 13:40:24 2026 -0400
+
+    Merge branch 'master' into ai
+
+commit c4a730b3f303dbc2b2e26cd65709c05f3c36fa03
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 8 15:34:40 2026 +0000
+
+    bumped changelog version
+
 commit c307185f19a40b4a844cf9124bee9c3afed4c94a
 Merge: c422954 c279320
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Sep 8 10:20:57 2026 -0400
 
     Merge remote-tracking branch 'refs/remotes/ArrayBolt3/arraybolt3/trixie'
+
+commit abb53d11857dffa185bdf850377e5031181a6ce1
+Author: claude (dev466 03fddc83-eb06-452c-9154-010371b63889) <noreply@anthropic.com>
+Date:   Mon Sep 7 04:01:15 2026 -0400
+
+    grub: force 4x3/BIOS theme via dist_build_grub_bios_theme
+
+    - grub-mkconfig runs in the build chroot; the firmware probe reads the
+      BUILD HOST, making images non-reproducible. The build env var forces 4x3.
+    - Absent at runtime, so an installed system still probes its own firmware.
 
 commit c27932018442af9c1e773494c84302cc5ada5b05
 Author: Aaron Rainbolt <arraybolt3@gmail.com>
